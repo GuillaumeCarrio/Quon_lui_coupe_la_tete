@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+
+.container {
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#wordContainer {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#wordContainer span {
+    font-size: 24px;
+    margin: 0 5px;
+    border-bottom: 2px solid #333;
+    padding: 0 5px;
+}
+
+.letters button {
+    margin: 2px;
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.letters button:disabled {
+    background-color: #ccc;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#message {
+    font-size: 18px;
+    margin: 10px 0;
+    color: red;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}

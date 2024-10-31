@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu du Pendu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jeu du Pendu</h1>
+        <p>Essaye de deviner le mot lié à Electron.js</p>
+        <div id="wordContainer"></div>
+        <div id="message"></div>
+        <div class="letters">
+            <button onclick="guess('A')">A</button>
+            <button onclick="guess('B')">B</button>
+            <button onclick="guess('C')">C</button>
+            <button onclick="guess('D')">D</button>
+            <button onclick="guess('E')">E</button>
+            <button onclick="guess('F')">F</button>
+            <button onclick="guess('G')">G</button>
+            <button onclick="guess('H')">H</button>
+            <button onclick="guess('I')">I</button>
+            <button onclick="guess('J')">J</button>
+            <button onclick="guess('K')">K</button>
+            <button onclick="guess('L')">L</button>
+            <button onclick="guess('M')">M</button>
+            <button onclick="guess('N')">N</button>
+            <button onclick="guess('O')">O</button>
+            <button onclick="guess('P')">P</button>
+            <button onclick="guess('Q')">Q</button>
+            <button onclick="guess('R')">R</button>
+            <button onclick="guess('S')">S</button>
+            <button onclick="guess('T')">T</button>
+            <button onclick="guess('U')">U</button>
+            <button onclick="guess('V')">V</button>
+            <button onclick="guess('W')">W</button>
+            <button onclick="guess('X')">X</button>
+            <button onclick="guess('Y')">Y</button>
+            <button onclick="guess('Z')">Z</button>
+        </div>
+        <p>Échecs : <span id="errors">0</span>/10</p>
+        <button onclick="startGame()">Recommencer</button>
+        <button id="saveBtn">Sauvegarder</button>
+        <button id="loadBtn">Charger</button>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>
